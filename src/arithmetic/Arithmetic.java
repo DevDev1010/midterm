@@ -7,7 +7,7 @@ package arithmetic;
 
 
 import java.util.Scanner;
-import static java.time.Clock.system;
+
 
 /** This class calls the method to perform 
  * arithmetic operations based on user input
@@ -29,6 +29,9 @@ public class Arithmetic
         int n= in.nextInt();
         int m= in.nextInt();
         double result = r.calculate(m,n);
+        System.out.println("Enter arithmetic operation to Perform: ");
+       
+        
         System.out.println("result :" +result); 
     
     }
